@@ -29,18 +29,12 @@
         <a class="navbar-brand" href="#">
           <img src="./image/1530725264832.jpg" alt="" style="height: 50px" />
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+        <div
+          class="collapse navbar-collapse"
+          id="navbarNavDropdown
+          "
+          style="margin-left: 300px"
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
               <a
@@ -118,9 +112,9 @@
               <a class="nav-link text-primary-emphasis" href="#">Fellowship</a>
             </li>
           </ul>
-          <div class="ms-auto">
-            <button class="btn btn-outline-primary" type="submit">Login</button>
-          </div>
+        </div>
+        <div class="ms-auto">
+          <button class="btn btn-outline-primary" type="submit">Login</button>
         </div>
       </div>
     </nav>
@@ -129,14 +123,14 @@
     <section
       class="p-3"
       style="
-        background-image: url(./image/tw.png);
+        background-image: url(./image/tinywow_bg_34045907.png);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 80vh;
+        height: 100vh;
       "
     >
       <div class="container">
-        <div class="row p-3">
+        <div class="row p-3 mt-5">
           <div class="col-md-6 col-sm-12">
             <h2 class="text-primary-emphasis">
               Cardiovascular Disease Shouldn't Go Undetected For Women.
@@ -276,7 +270,7 @@
         </div>
       </div>
     </section>
-
+    <!--card section-3 -->
     <section class="p-3">
       <div class="container">
         <div class="col-4">
@@ -302,7 +296,7 @@
           <div class="card border-0" style="width: 16rem">
             <img src="./image/toronto-1.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title text-primary-emphasis">TORONTO</h5>
+              <h5 class="card-title text-primary-emphasis">MONTREAL</h5>
               <p class="card-text">
                 141 Adelaide Street Suite 770 Toronto, ON Canada, M5H 3L5
               </p>
@@ -312,7 +306,7 @@
           <div class="card border-0" style="width: 16rem">
             <img src="./image/vancouver-1.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title text-primary-emphasis">TORONTO</h5>
+              <h5 class="card-title text-primary-emphasis">VANCOUVER</h5>
               <p class="card-text">
                 141 Adelaide Street Suite 770 Toronto, ON Canada, M5H 3L5
               </p>
@@ -322,7 +316,7 @@
           <div class="card border-0" style="width: 16rem">
             <img src="./image/montreal-1.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title text-primary-emphasis">TORONTO</h5>
+              <h5 class="card-title text-primary-emphasis">BOSTON</h5>
               <p class="card-text">
                 141 Adelaide Street Suite 770 Toronto, ON Canada, M5H 3L5
               </p>
@@ -332,7 +326,7 @@
           <div class="card border-0" style="width: 16rem">
             <img src="./image/toronto-1.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title text-primary-emphasis">TORONTO</h5>
+              <h5 class="card-title text-primary-emphasis">AUSTRILA</h5>
               <p class="card-text">
                 141 Adelaide Street Suite 770 Toronto, ON Canada, M5H 3L5
               </p>
@@ -343,25 +337,45 @@
       </div>
     </section>
 
-    <section class="bg-body-tertiary" style="height: 50vh"></section>
-
     <!-- footer -->
-    <footer>
-      <div class="container-fluid bg-secondary bg-opacity-10">
-        <div class="row p-5 d-flex">
-          <div class="col-3 logo">
-            <img src="./image/1530725264832.jpg" alt="" />
+    <footer
+      class="container-fluid"
+      style="
+        background-image: url(./image/footer.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+      "
+    >
+      <div class="container">
+        <div class="row p-5">
+          <div class="col-2">
+            <img src="./image/lumira_white_logo.svg" width="190px" alt="" />
           </div>
-          <div class="col-2 content">
-            <h6>TORONTO</h6>
-            <p>141 Adelaide Street Suite 770 Toronto, ON Canada, M5H 3L5</p>
+          <div class="col-8">
+            <div class="row">
+              <div class="col-2 ms-5">
+                <h5 class="text-white">ABOUT</h5>
+                <p class="text-secondary">About Lumira Community</p>
+              </div>
+              <div class="col-2">
+                <h5 class="text-white">TEAM</h5>
+                <p class="text-secondary">Lorem ipsum adipisicing</p>
+              </div>
+              <div class="col-2">
+                <h5 class="text-white">PORTFOILO</h5>
+                <p class="text-secondary">Supedisse Holestie Aliqute Elit</p>
+              </div>
+              <div class="col-2">
+                <h5 class="text-white">STORIES</h5>
+                <p class="text-secondary">The Journey Successes News</p>
+              </div>
+              <div class="col-2">
+                <h5 class="text-white">FELLOWSHIP</h5>
+                <p class="text-secondary">Pellentesque Curus Interdum</p>
+              </div>
+            </div>
           </div>
-          <img
-            src="./image/Lumira-Ventures-logo.png"
-            alt=""
-            class="mt-5"
-            style="height: 170px"
-          />
         </div>
       </div>
     </footer>
